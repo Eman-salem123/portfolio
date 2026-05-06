@@ -1,53 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Projects</title>
-
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Eman Salem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
 
-<!-- Navbar -->
 <nav>
-    <h2 class="logo">Eman Salem</h2>
-
+    <h2 class="logo">Eman<span>Salem</span></h2>
     <div class="nav-links">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
+        <a href="projects.html" class="active">Projects</a>
         <a href="contact.html">Contact</a>
     </div>
 </nav>
 
-<!-- Projects Section -->
 <section class="projects">
-
     <h1>My Projects</h1>
-
-    <p class="intro">Some of the work I built while learning frontend development.</p>
+    <p class="intro">A showcase of my work in Software Development and Educational Tech solutions.</p>
 
     <div class="projects-grid">
-
         <div class="project-card">
-            <h3>Landing Page</h3>
-            <p>Modern responsive landing page using HTML & CSS</p>
+            <div class="project-icon"><i class="fas fa-car"></i></div>
+            <h3>Elite Rider App</h3>
+            <p>A comprehensive ride-hailing application developed with <b>Flutter</b> and <b>Dart</b>. Features real-time driver tracking and user-friendly UI.</p>
+            <div class="tags">
+                <span>Flutter</span>
+                <span>Dart</span>
+                <span>Supabase</span>
+            </div>
+            <a href="https://github.com/Eman-salem123" class="project-link" target="_blank">View on GitHub</a>
         </div>
 
         <div class="project-card">
-            <h3>CV Website</h3>
-            <p>Personal portfolio website with multiple pages</p>
+            <div class="project-icon"><i class="fas fa-server"></i></div>
+            <h3>Uber Clone Backend</h3>
+            <p>Developed a robust backend for a ride-sharing service using <b>Python (FastAPI)</b> and <b>PostgreSQL</b> for database management.</p>
+            <div class="tags">
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>PostgreSQL</span>
+            </div>
+            <a href="https://github.com/Eman-salem123" class="project-link" target="_blank">View on GitHub</a>
         </div>
 
         <div class="project-card">
-            <h3>Form Design</h3>
-            <p>Beautiful login & signup form UI</p>
+            <div class="project-icon"><i class="fas fa-universal-access"></i></div>
+            <h3>Inclusive Feedback System</h3>
+            <p>A web-based platform designed with accessibility in mind for educational feedback, using clean HTML/CSS layout.</p>
+            <div class="tags">
+                <span>HTML/CSS</span>
+                <span>Ed-Tech</span>
+            </div>
+            <a href="#" class="project-link">Live Demo</a>
         </div>
 
+        <div class="project-card">
+            <div class="project-icon"><i class="fas fa-user-code"></i></div>
+            <h3>Personal Portfolio</h3>
+            <p>A multi-page responsive website to showcase my journey and skills, following <b>Clean Code</b> principles.</p>
+            <div class="tags">
+                <span>Web Design</span>
+                <span>Responsive</span>
+            </div>
+            <a href="index.html" class="project-link">View Site</a>
+        </div>
     </div>
-
 </section>
 
 </body>

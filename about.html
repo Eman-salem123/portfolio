@@ -1,73 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About Me</title>
-
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Eman Salem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
 
-<!-- Navbar (نفس بتاع الرئيسية) -->
 <nav>
-    <h2 class="logo">Eman Salem</h2>
-
+    <h2 class="logo">Eman<span>Salem</span></h2>
     <div class="nav-links">
         <a href="index.html">Home</a>
-        <a href="about.html">About</a>
+        <a href="about.html" class="active">About</a>
         <a href="projects.html">Projects</a>
         <a href="contact.html">Contact</a>
     </div>
 </nav>
 
-<!-- About Section -->
 <section class="about">
-
     <h1>About Me</h1>
-
     <p class="intro">
-        I am a passionate Frontend Developer who loves building modern and clean websites.
+        I am a <b>Software Engineer</b> and <b>Special Education Specialist</b>. 
+        My journey is driven by a unique blend of technical expertise in <b>Back-End Development</b> and a deep commitment to <b>Educational Technology</b>. 
+        I believe in writing <b>Clean Code</b> to create inclusive digital environments.
     </p>
 
-    <!-- Timeline -->
+    <h2>My Journey</h2>
     <div class="timeline">
-
         <div class="box">
-            <h3>2024</h3>
-            <p>Started learning HTML & CSS</p>
+            <span class="date">2020 - 2024</span>
+            <h3>Bachelor’s Degree in Specific Education</h3>
+            <p>Ain Shams University - Focused on Educational Technology & Special Education.</p>
         </div>
 
         <div class="box">
-            <h3>2025</h3>
-            <p>Built my first portfolio projects</p>
+            <span class="date">2021 - 2023</span>
+            <h3>IT Unit Manager & IT Instructor</h3>
+            <p>Managed IT operations and taught ICT curriculum, bridging technology with learning.</p>
         </div>
 
         <div class="box">
-            <h3>Now</h3>
-            <p>Improving frontend skills and JavaScript</p>
+            <span class="date">2024 - 2026</span>
+            <h3>Diploma in Computer Science</h3>
+            <p>Cairo University - Deepening knowledge in CS fundamentals, Data Structures, and Software Engineering.</p>
         </div>
-
     </div>
 
-    <!-- Skills -->
-    <h2>Skills</h2>
-
-    <div class="skills">
-
-        <div class="skill-bar">
-            <span>HTML</span>
-            <div class="bar"><div class="fill html"></div></div>
+    <h2>Technical Expertise</h2>
+    <div class="skills-container">
+        <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Programming</h3>
+            <div class="skill-bar"><span>Python & FastAPI</span><div class="bar"><div class="fill python"></div></div></div>
+            <div class="skill-bar"><span>Dart & Flutter</span><div class="bar"><div class="fill flutter"></div></div></div>
+            <div class="skill-bar"><span>C++ / Java</span><div class="bar"><div class="fill java"></div></div></div>
+            <div class="skill-bar"><span>SQL (PostgreSQL)</span><div class="bar"><div class="fill sql"></div></div></div>
         </div>
 
-        <div class="skill-bar">
-            <span>CSS</span>
-            <div class="bar"><div class="fill css"></div></div>
+        <div class="skill-category">
+            <h3><i class="fas fa-tools"></i> Design & Ed-Tech</h3>
+            <div class="skill-bar"><span>HTML & CSS</span><div class="bar"><div class="fill html"></div></div></div>
+            <div class="skill-bar"><span>Adobe Illustrator/PS</span><div class="bar"><div class="fill adobe"></div></div></div>
+            <div class="skill-bar"><span>Articulate Storyline</span><div class="bar"><div class="fill articulate"></div></div></div>
         </div>
-
     </div>
 
+    <div class="volunteer-badge">
+        <p><i class="fas fa-heart"></i> Proud Volunteer at <b>Resala Charity</b> & <b>Egyptian Food Bank</b>.</p>
+    </div>
 </section>
 
 </body>

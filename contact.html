@@ -1,45 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact</title>
-
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Eman Salem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
 
-<!-- Navbar -->
 <nav>
-    <h2 class="logo">Eman Salem</h2>
-
+    <h2 class="logo">Eman<span>Salem</span></h2>
     <div class="nav-links">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
+        <a href="contact.html" class="active">Contact</a>
     </div>
 </nav>
 
-<!-- Contact Section -->
 <section class="contact">
-
     <h1>Contact Me</h1>
-    <p class="intro">Feel free to send me a message 👇</p>
+    <p class="intro">Let's connect! Whether you have a project in mind or just want to say hi. 👇</p>
 
-    <div class="contact-box">
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <p>emansalem2e@gmail.com</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <p>01002093179</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-location-dot"></i>
+                <p>Shibin Al Qanater, Qalyubia</p>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://github.com/Eman-salem123" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
 
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea rows="5" placeholder="Your Message"></textarea>
-
-            <button type="submit">Send Message</button>
-        </form>
-
+        <div class="contact-box">
+            <form action="#">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Tell me about your project or inquiry..." required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
     </div>
-
 </section>
 
 </body>
